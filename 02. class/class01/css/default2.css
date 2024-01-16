@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+h1{border: 10px solid red;}
+/* .hl_1, .hl_2 {display:inline; margin-right: 20px;} */
+/* .hl_1, .hl_2 {display:inline; padding-right: 20px;} */
+h1 {display:inline; padding-right: 20px;}
+.mrgRight0 {padding-right:0px;}
