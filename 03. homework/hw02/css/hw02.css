@@ -1,8 +1,19 @@
 @charset "utf-8";
+.test1 {font-weight: 900;}
+.test2 {font-weight: 500;}
+.test3 {font-weight: 100;}
 
-.title1 {color:black; border: 1px solid gray; display: inline;}
-.title2 {color: green; border: 1px solid gray; display: inline;}
-.title3 {color: yellow; border: 1px solid gray; display: inline; border-radius: 50%}
-h4 {color: blue; border: 1px solid gray; background-color: yellow}
-h5 {color: purple; border: 1px solid gray}
+ul li {list-style: none; float: left}
+ol li {list-style: none;}
 
+table {
+    width: 100%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #444444;
+  }
+  .img1 {width:100px; height: auto;}
+
+  .img2 {display: block; max-width: 100%; height: auto;}
