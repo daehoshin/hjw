@@ -8,3 +8,6 @@
 	> section
 	> article
 	> footer
+
+	시멘틱 구조 사용 이유
+	 : SEO(검색엔진최적화)
