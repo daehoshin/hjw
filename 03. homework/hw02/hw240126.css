@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.test1 {font-weight:700}
+.test2 {font-weight:400}
+.test3 {font-weight:50}
+
+ul li {display: inline-block;}
+ol li {list-style: none;}
+
+table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+th, td {border: 1px solid gray;}
+
+.img1 {width:400px; height:auto}
+.img2 {max-width: 100%; height:auto;}
