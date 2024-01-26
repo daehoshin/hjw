@@ -1,9 +1,8 @@
 @charset "utf-8";
 
-body {margin: 0; padding: 0}
 div {margin-bottom: 5px; background-color: red;}
 .header {background-color: black; color: white; text-align: center;}
 .content {width: 600px; height: 500px; background-color: blue; margin: 0 auto; padding: 20px 0 20px 0}
-.box1 {width: 300px; height: 500px; text-align: center; line-height: 500px; float: left; background-color: yellow}
+.box1 {width: 298px; height: 500px; text-align: center; line-height: 500px; float: left; border: 1px solid yellow}
 .box2 {width: 300px; height: 500px; text-align: center; line-height: 500px; float: left; background-color: greenyellow}
 .footer {margin: 20px 0; text-align: center; background-color: aqua; height: 50px; line-height: 50px;}
