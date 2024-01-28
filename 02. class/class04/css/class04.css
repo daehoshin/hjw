@@ -1,0 +1,4 @@
+@charset "utf-8";
+
+#mainForm div, header {margin: 20px;}
+.pepe:hover { transform: scale(1.5, 1.5)}
