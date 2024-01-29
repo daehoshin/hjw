@@ -2,10 +2,13 @@
 	> id(100), class(10), tag(1), !important
 후손, 자손 선택자
 	> div h1, div>h1
-속성 선택자
+
+속성 선택자 : "[]"
 	> input[type=text]
 	> input[type^=text]
 	> input[type$=text]
+
+<FILTERS> ":"
 구조 선택자
 	> first-child, last-child, nth-child
 반응 선택자

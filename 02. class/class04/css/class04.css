@@ -1,4 +1,28 @@
 @charset "utf-8";
 
+header li {background-color: red;}
+header h1 {color: blue;}
+header nav ul li {background-color: green;}
+header > nav ul li {background-color: black;}
+
+input[type=text] {background-color: yellow;} 
+input[value^=노루] {background-color: pink;} 
+input[value$=워크] {background-color: brown;}
+
+#gnb > ul li {background-color: skyblue;}
+#gnb > ul li:first-child {background-color: darkorchid;}
+#gnb > ul li:last-child {background-color: sienna;}
+#gnb > ul li:nth-child(3) {background-color: beige;}
+#gnb > ul li:nth-last-child(2) {background-color: antiquewhite;}
+#gnb > ul li:nth-child(2n+1) {background-color: black;}
+
+a:active {color:red;}
+.noru:hover {display: none;}
+
+input[type=checkbox]:checked {accent-color: red;}
+
+#gnb > ul li:not(.menu3) {color: deeppink;}
+#gnb ul li:first-child {background-color: chocolate;}
+
 #mainForm div, header {margin: 20px;}
 .pepe:hover { transform: scale(1.5, 1.5)}
