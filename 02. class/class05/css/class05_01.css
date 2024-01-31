@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.header {background-color: black; color: white; text-align: center;}
+.content {width: 600px; height: 500px; background-color: blue;}
+/* .content {position: relative; background-color: aqua;} */
+.box1 {width: 200px; height: 200px; text-align: center; line-height: 500px; background-color: brown; margin-top: 50.4px; margin-left: 10px;}
+.box2 {width: 100px; height: 100px; text-align: center; line-height: 500px; background-color: greenyellow; position: absolute; top: 50.4px; left: 200px;}
+/* .footer {margin: 20px 0; text-align: center; background-color: aqua; height: 50px; line-height: 50px;} */
