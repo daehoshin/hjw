@@ -1,0 +1,7 @@
+@charset "utf-8";
+html, body {height: 100%;}
+header {width: 100%; height: 120px; background-color: blanchedalmond; display: block;}
+
+main {display: flex; flex-direction: row; height: 100%;}
+nav {background-color: chocolate; flex-basis: 150px;}
+article {background-color: aquamarine; width:100%}
