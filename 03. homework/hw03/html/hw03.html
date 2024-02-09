@@ -9,9 +9,14 @@
     <!-- <link rel="stylesheet" href="../css/hw03_02.css"> -->
 </head>
 <body>
+    <div id="skipArea">
+        <a href="#contets" tabindex="0">본문 바로가기</a>
+        <a href="#lnb" tabindex="1">메뉴 바로가기</a>
+        <a href="#footer" tabindex="2">하단영역 바로가기</a>
+    </div>
     <header>header 영역</header>
     <main>
-        <nav>
+        <nav id="lnb">
             <ul>
                 <li><a href="" class="menu1">menu1</a></li>
                 <li><a href="" class="menu2">menu2</a></li>
@@ -20,7 +25,8 @@
                 <li><a href="" class="menu5">menu5</a></li>
             </ul>
         </nav>
-        <article>오른쪽 영역</article>
+        <article id="contets">오른쪽 영역</article>
     </main>
+    <footer id="footer">하단영역</footer>
 </body>
 </html>

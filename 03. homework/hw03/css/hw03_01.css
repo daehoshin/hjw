@@ -1,11 +1,18 @@
 @charset "utf-8";
-html, body {height: 100%}
-/* html {height: 100%}
-body {height: 100%} */
+html, body {width:100%; height: 100%; overflow-y: auto; display: block;}
+
+#skipArea {position: relative; text-align: center; }
+#skipArea a {position:absolute; top:-200px; left:0px; color: white; font-weight: bold; background-color: black; display: block; width:100%; height: 30px; line-height: 30px; font-size:large}
+#skipArea a:active, #skipArea a:focus {top:0px;}
+
 header {width: 100%; height: 120px; background-color: blanchedalmond;}
 main {position: relative; height: 100%;}
-nav {width: 150px; height: 100%; background-color: chocolate;}
+nav {width: 150px; height: 100%;}
 article {width: 100%; height: 100%; background-color: aquamarine; position: absolute; top: 0px; left: 150px;}
-nav li {background-color:blueviolet; width: 100%; text-align: center; padding: 8px 0px;}
-nav li a {display: block;}
+nav li {background-color:blueviolet; opacity: 0.8; width: 100%; text-align: center; height:30px; border-radius: 3px; margin-bottom: 3px; }
+nav li a {display: block; line-height: 30px;}
 nav li a:hover {font-weight: bold;}
+nav li:hover {font-weight: bold; opacity: 1;}
+
+/* footer 영역 2024-02-09 */
+footer {display: block; width: 100%; height: 60px; line-height:60px; background-color: brown; text-align: center; color: black; font-weight: bold;}
