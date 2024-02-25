@@ -5,3 +5,8 @@
 .box3 {width:50px; height:50px; background-color: black;}
 .box4 {width:50px; height:50px; background-color: green;}
 .box5 {width:50px; height:50px; background-color: yellow;}
+
+input[name=ipt_1] {background-color: yellow;}
+input[name=ipt_2] {background-color: blue;}
+input[class=ipt_3] {background-color: black;}
+
