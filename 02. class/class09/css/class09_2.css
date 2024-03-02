@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+div{position: relative;}
+#loginBtn {
+    cursor: pointer;
+    background-color: aquamarine; padding: 10px 10px; border-radius: 15px; opacity: 0.7; position : absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+
+#loginBtn:hover {
+    background-color: blueviolet;
+    opacity: 1;
+    font-weight: bold;
+    color: white
+}
+
+/* 장애인차별금지 : body relative, a absolute 및 -값 주는 것 */
+body {position: relative;}
+a {display: block; width:100%; height:30px; background-color: cadetblue; line-height:30px; text-align: center; color: darkmagenta; position: absolute; top:-9999px; left: 0px;}
+
+a:active, a:focus {
+    top: 0px;
+}
