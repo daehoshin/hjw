@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/default/default.css">
+    <link rel="stylesheet" href="../css/hw05_g1.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+        $(function(){
+            $("#saveBtn").click(function(){
+                // step1 로그인 버튼 클릭했을때 id와 pwd가 있는지 확인
+                // step1-1 아이디가 없으면 아이디를 입력하세요 alert 노출
+                // step1-2 포커스를 아이디 input 박스로 지정 
+                // step1-3 비밀번호가 없으면 비밀번호를 입력하세요 alert 노출
+                // step1-4 포커스를 비밀번호 input 박스로 지정
+
+                if($("[name=id]").val() == "") {
+                    alert("아이디를 입력하세요.");
+                    $("[name=id]").focus();
+                    return;
+                }
+
+                var pwd = $("#hw05_pwd").val();
+                if(pwd == "") {
+                    alert("비밀번호를 입력하세요.");
+                    $("#hw05_pwd").focus();
+                    return;
+                }
+
+                alert("home work05 pass!!");
+                
+            });
+        });
+    </script>
+</head>
+<body>
+    <label for="iptId">아이디</label>
+    <input type="text" id="iptId">
+    <br>
+    <br>
+    <br>
+    <label for="inpPwd">비밀번호</label>
+    <input type="password" id="iptPwd">
+    <br>
+    <br>
+    <br>
+    <div>
+        <button type="button" id="loginBtn">로그인</button>
+    </div>
+
+    <div id="loginArea">
+        <div class="ipt_area">
+            <label for="hw05_id"></label>
+            <input type="text" id="hw05_id" name="id" placeholder="아이디">
+            <label for="hw05_pwd"></label>
+            <input type="password" id="hw05_pwd" name="pwd" placeholder="비밀번호">
+        </div>
+        <div class="btnArea">
+        <button type="button" id="saveBtn">로그인</button>
+        </div>
+    </div>    
+</body>
+</html>

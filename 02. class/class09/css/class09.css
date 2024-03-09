@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.box1 {width:50px; height:50px; background-color: red;}
+.box2 {width:50px; height:50px; background-color: beige;}
+.box3 {width:50px; height:50px; background-color: gold;}
+.box4 {width:50px; height:50px; background-color: greenyellow;}
+.box5 {width:50px; height:50px; background-color: skyblue;}
+
+input[name=ipt_1] {background-color: yellow;}
+input[name=ipt_2] {background-color: blue;}
+input[class=ipt_3] {background-color: black;}
+
+.armyNum {display: none}
