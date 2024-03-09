@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+div {width: 100%; height: 300px; background-color: blue; display: block;}
+
+/* 900px 테블릿, 350px 스마튼폰*/
+
+@media screen and (max-width:900px) {
+    div {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width:350px) {
+    div {
+        background-color: red;
+        opacity: 0.7;
+    }
+}
+
+
