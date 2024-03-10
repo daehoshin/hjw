@@ -1,15 +1,25 @@
 @charset "utf-8";
 
+<<<<<<< HEAD
 div {width: 100%; height: 300px; background-color: blue; display: block;}
 
 /* 900px 테블릿, 350px 스마튼폰*/
 
 @media screen and (max-width:900px) {
     div {
+=======
+div {width: 100%; height: 300px; background-color: antiquewhite; display: block;}
+
+/* 미디어쿼리를 배워보자. LET'S 900px 태블릿, 35px 스마트폰 가정 */
+
+@media screen and (max-width: 900px){
+    div{
+>>>>>>> f06c67ad0248d5e60c45d3635fe86337009d5d64
         background-color: red;
     }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width:350px) {
     div {
         background-color: red;
@@ -18,3 +28,11 @@ div {width: 100%; height: 300px; background-color: blue; display: block;}
 }
 
 
+=======
+@media screen and (max-width: 350px){
+    div{
+        background-color: red;
+        opacity: 0.7;
+    }
+}
+>>>>>>> f06c67ad0248d5e60c45d3635fe86337009d5d64
