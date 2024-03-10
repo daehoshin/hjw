@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/default/default.css">
+    <!-- <link rel="stylesheet" href="../css/샤넬.css"> -->
+    <link rel="stylesheet" href="../css/샤넬2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://kit.fontawesome.com/120896dfac.js" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $('#effect-toggle').click(function(){
+                var isChk = $(this).is(":checked");
+                if(isChk) {
+                    $(".effect-word").text('고대비 효과 끄기');
+                } else {
+                    $(".effect-word").text('고대비 효과 켜기');
+                }
+            });
+        })
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <ul class="logo-img">
+                <li>logo-img</li>
+            </ul>
+            <h1 class="logo">CHANEL</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href=""><span class="material-symbols-outlined">
+                        search
+                    </span></a></li>
+                    <li><a href=""><span class="material-symbols-outlined">
+                        person
+                        </span></a></li>
+                    <li><a href=""><span class="material-symbols-outlined">
+                        star
+                        </span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-bottom">
+            <nav class="sub-nav">
+                <ul>
+                    <li><a href="">오뜨 꾸뛰르</a></li>
+                    <li><a href="">패션</a></li>
+                    <li><a href="">하이 주얼리</a></li>
+                    <li><a href="">화인 주얼리</a></li>
+                    <li><a href="">워치</a></li>
+                    <li><a href="">아이웨어</a></li>
+                    <li><a href="">향수</a></li>
+                    <li><a href="">메이크업</a></li>
+                    <li><a href="">스킨케어</a></li>
+                    <li><a href="">샤넬 소개</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        img~
+    </main>
+    <footer>
+        <h1 class="footer-logo">CHANEL</h1>
+        <nav class="main-footer">
+            <ul>
+                <li class="footer-nav-area">
+                    <a href="" class="footer-title">CHANEL.COM 자세히 살펴보기</a>
+                    <ul>
+                        <li><a href="">오뜨 꾸뛰르</a></li>
+                        <li><a href="">패션</a></li>
+                        <li><a href="">하이 주얼리</a></li>
+                        <li><a href="">화인 주얼리</a></li>
+                        <li><a href="">워치</a></li>
+                        <li><a href="">아이웨어</a></li>
+                        <li><a href="">향수</a></li>
+                        <li><a href="">메이크업</a></li>
+                        <li><a href="">스킨케어</a></li>
+                        <li><a href="">사이트맵</a></li>
+                    </ul>
+                </li>
+                <li class="footer-nav-area">
+                    <a href="" class="footer-title">온라인 서비스</a>
+                    <ul>
+                        <li><a href="">샤넬 코드 멤버십</a></li>
+                        <li><a href="">결제 방법</a></li>
+                        <li><a href="">배송 옵션</a></li>
+                        <li><a href="">마이 페이지</a></li>
+                        <li><a href="">반품</a></li>
+                        <li><a href="">케어&서비스</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="footer-nav-area">
+                    <a href="" class="footer-title">부티크 서비스</a>
+                    <ul>
+                        <li><a href="">부티크 찾기</a></li>
+                    </ul>
+                </li>
+                <li class="footer-nav-area">
+                    <ul class="footer-sub-ul">
+                        <li class="footer-nav-area"><a href="" class="footer-title">샤넬 하우스</a>
+                            <ul>
+                                <li><a href="">채용</a></li>
+                            <li><a href="">법적 고지</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer-nav-area"><a href="" class="footer-title">개인정보처리방침</a>
+                            <ul>
+                                <li><a href="">Report to Society</a></li>
+                                <li><a href="">위조품 근절</a></li>
+                            <li><a href="">채무 실적</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="mid-footer">
+            <span class="effect-word">고대비 효과 켜기</span>
+            <input type="checkbox" id="effect-toggle" hidden>
+                <label for="effect-toggle" class="toggle-switch">
+                    <span class="toggle-button"></span>
+                </label>
+            </input>
+        </div>
+        <hr>
+        <nav class="sub-footer">
+            <span>Change location and language</span>
+            <ul>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
