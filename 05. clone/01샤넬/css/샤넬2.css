@@ -1,1 +1,34 @@
 @charset "utf-8";
+
+/* header 영역 */
+header {position:fixed; top: 0px; background-color: white; width: 100%;}
+.header-top {display: flex; padding: 20px 0 10px 0; justify-content: space-around; border-top: 8px solid black; align-items: center;}
+.header-top .logo-img {width: 132px; color: transparent} /* 부모 색상과 똑같이 된다 */
+.header-top .main-nav ul {display: flex}
+.header-top .main-nav ul li {padding: 0px 10px;}
+.header-top .logo {font-size: 34px; color: black; letter-spacing: 3px;}
+.header-bottom .sub-nav ul {display: flex; justify-content: center;}
+.header-bottom .sub-nav ul li {font-size: 16px; font-weight: 600;}
+.header-bottom .sub-nav ul li a {display: block; padding: 10px 10px;}
+/* body 영역 */
+main {background-color: black; height: 1200px; width: 100%}
+/* footer 영역 */
+footer {padding: 60px 120px 0px 120px; background-color: black;}
+.footer-logo {font-size: 34px; color: white; letter-spacing: 3px; text-align: center; padding-bottom: 100px;}
+.main-footer .footer-nav-area > a {color: white; font-size: 16px; font-weight: bold; letter-spacing: 2px;} /* 21 */
+/* .main-footer .footer-nav-area a 후손
+.main-footer .footer-nav-area > a 자식 */
+.main-footer .footer-title {display:block; padding-bottom: 10px;}
+.main-footer ul li ul li a {color: #9b9b9b; font-size: 16px;} /* 15 */
+.main-footer ul li ul li {padding: 5px 0;}
+.main-footer > ul {display: flex;}
+.main-footer > ul > li {width: 25%;}
+.mid-footer {padding: 50px 0 15px 0;}
+.mid-footer .effect-word {color: white; font-size: 16px; font-weight: 400;}
+footer .line {display: block; width:100%; border-bottom: 0.5px solid #606060; opacity: 0.5;}
+.sub-footer {padding: 20px 0 15px 0}
+.sub-footer span::after {margin-left: 10px;content:'한국 - Korean'; color: white}
+.sub-footer {display: flex; justify-content: space-between;}
+.sub-footer ul {display: flex;}
+.sub-footer ul li {padding: 0 10px;}
+.sub-footer ul li a {color: #9b9b9b}
